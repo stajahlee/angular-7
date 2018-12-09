@@ -1,6 +1,7 @@
 import React from 'react';
 import { handleResponse } from '../../helpers';
 import { API_URL } from '../../config';
+import Loading from '../common/Loading';
 import './Table.css';
 
 class List extends React.Component {
@@ -33,16 +34,26 @@ class List extends React.Component {
       });
   }
 
+  renderChangePercent(percent) {
+    if (percent > 0) {
+      return <span className="percent-raised">{percent}% &uarr;</span>
+    } else if (percent < 0) {
+      return <span className="percent-fallen">{percent}% &darr;</span>
+    } else {
+      return <span>{percent}</span>
+    }
+  }
+
   render() {
     if (this.state.loading) {
-      return (<div> Loading... </div>);
+      return (
+        <div className="loading-container"> 
+          <Loading />
+        </div>);
     }
 
     return ( 
       <div className="Table-container"> 
-        {this.state.currencies.map((currency) => (
-          <div key={currency.id}>{currency.id}</div>
-        ))}
         <table className="Table">
           <thead className="Table-head">
             <tr>
@@ -52,6 +63,25 @@ class List extends React.Component {
               <th>24H Change</th>
             </tr>
           </thead>
+          <tbody className="Table-body">
+            {this.state.currencies.map((currency) => (
+              <tr key={currency.id}>
+                <td>
+                  <span className="Table-rank">{currency.rank}</span>
+                  {currency.name}
+                </td>
+                <td>
+                  <span className="Table-dollar">$ {currency.price}</span>
+                </td>
+                <td>
+                  <span className="Table-dollar">$ {currency.marketCap}</span>
+                </td>
+                <td>
+                  {this.renderChangePercent(currency.percentChange24h)}
+                </td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
     );
