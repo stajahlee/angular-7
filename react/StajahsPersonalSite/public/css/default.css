@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: inherit; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -158,13 +158,13 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+   color: #adadad;
+	font-family: 'opensans', sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
-h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h1 { font-size: 28px; line-height: 28x; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 26px; line-height: 26px; margin-bottom: 6px; }
 h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
@@ -216,7 +216,7 @@ blockquote cite {
 }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
-blockquote cite a:visited { color: #8B9798; border: none }
+blockquote cite a:visited { color: rgb(190, 204, 206); border: none }
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
@@ -263,7 +263,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
    letter-spacing: .5px;
-	color: gray;
+	color: white;
 }
 abbr:hover { cursor: help; }
 
@@ -356,7 +356,7 @@ li p { }
 	margin: 6px 0 0 0;
 	font-size: 13px;
 	font-family: 'opensans-regular', sans-serif;
-   color: #8B9798;
+   color: rgb(184, 199, 201);
 }
 
 /* definition list */
@@ -416,7 +416,7 @@ dd { margin: 0 0 0 20px; }
    padding: 6px 10px;
    margin-right: 3px;
    margin-bottom: 6px;
-	color: #6E757C;
+	color: rgb(140, 144, 148);
 	background-color: #E6E8EB;
 
 	-webkit-transition: all 200ms ease-in-out;

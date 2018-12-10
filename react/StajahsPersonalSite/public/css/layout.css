@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -193,7 +193,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color: rgb(217, 222, 230); }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: rgb(202, 200, 200);
 }
 #about .profile-pic {
    position: relative;

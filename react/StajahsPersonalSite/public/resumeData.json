@@ -1,151 +1,146 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Stajah",
+    "fullname": "Stajah Lee Hoeflich",
+    "occupation":"Software Developer",
+    "description":"I'm passionate about the great potential of technology, but tech is not my only passion",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "bio":"I am driven and passionate about technology, especially how innovative tech can be used for good. I have been a Grace Hopper scholar and could be called a Renaissance Woman (as a techie nerd, painter, singer, apothecary-hobbyist).",
+    "contactmessage":"I would love to hear from you - send me a message and I will reach back out to you soon!",
+    "email": "stajah@stajahlee.com",
+    "linkedincontact": "linkedin.com/in/stajah",
     "phone": "555-555-5555",
     "address":{
       "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+      "city":"Logan",
+      "state":"Ohio",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.stajahlee.com",
+    "resumedownload":"resume_hoeflich.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/stajah",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/stajahlee",
         "className":"fa fa-github"
       },
       {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "name":"instagram",
+        "url":"http://instagram.com/stajahlee",
+        "className":"fa fa-instagram"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Ohio University - Russ College of Engineering and Technology",
+        "degree":"Bachelor of Science in Computer Science",
+        "graduated":"May 2018",
+        "description":["Having graduated Summa Cum Laude in 3 years and inducted into The Honor Society of Phi Kappa Phi, ", 
+                      "my education at the Russ College of Engineering and Technology at Ohio University was both challenging ",
+                      "and highly rewarding. I was honored to also receive a Grace Hopper Celebration scholarship and other ",
+                      "scholarships in the department to finish my degree. My education was supplemented by acting as ",
+                      "a founding member of the Renaissance Engineers, working as a TA for the course \"Engineering Overview,\" ",
+                      "and completing various internships."]
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Marietta College",
+        "degree":"Bachelor of Arts in Graphic Design (and Studio Art - Painting)",
+        "graduated":"May 2006",
+        "description":["I double majored in Graphic Design and Studio Art (Painting) when I attended Marietta College. I graduated with ",
+                      "this degree Cum Laude and inducted into Kappi Pi (Art Honor Society). I had the honor of painting a mural that is ",
+                      "still able to be viewed on Butler Street in Marietta, Ohio and receiving awards for original artwork."]
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"CGI",
+        "title":"Technology Consultant ",
+        "years":"June 2018 - Present",
+        "description":["As a technology consultant with CGI, I have built a Python service for a client using Pandas and various Anaconda technologies. ",
+                       "The client will retrieve analysis results from two Hive tables where the output is stored. ",
+                      "During downtime, my team and I built a sample Angular front-end with ",
+                      "calls to the server side REST API."]
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"JP Morgan Chase",
+        "title":"Technology Analyst Program - Software Engineering Internship",
+        "years":"June 2017 - August 2017",
+        "description":["Used JavaScript, HTML/CSS, and React.js for user interface components in a new empoloyee workflow ",
+                      "web application. Integrated with the Agile scrum team in Digital for front-end component specification development."]
       }
     ],
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
+        "level":"75%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"53%"
+      },
+      {
+        "name":"Angular",
+        "level":"48%"
       },
       {
         "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"HTML5",
+        "level":"50%"
+      },
+      {
+        "name":"Python",
+        "level":"88%"
+      },
+      {
+        "name":"C++",
+        "level":"85%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"90%"
+      },
+      {
+        "name":"Photoshop",
+        "level":"92%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"OpenGL C++ Graphics Rendering of a Solar System",
+        "category":"Interactive Computer Graphics",
+        "image":"solarsystem2.png",
+        "url":"https://drive.google.com/file/d/1s0v-s6kLgqRhyC1VoZDc7zxnD_dj4bRa/view?usp=sharing"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Android Application paired with RFID Reader",
+        "category":"1st Place winning Student Application",
+        "image":"androidlogin.png",
+        "url":"https://drive.google.com/file/d/1gSXtv6-2iDsCyC2GVkNzFUbrFwV_uXQf/view?usp=sharing"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Branding Design and Style Guide",
+        "category":"Child care service in Memphis TN needed a new logo and branding design package.",
+        "image":"frogsandlilies.png",
+        "url":"https://drive.google.com/file/d/1R0ZJoMyrMVH28xcJXOhjBcklmMi3tcnA/view?usp=sharing"
       },
       {
         "title":"Resume Website",
-        "category":"A React based resume website template",
+        "category":"A React based resume website from template provided by Tim Baker",
         "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":""
       }
     ]
   },

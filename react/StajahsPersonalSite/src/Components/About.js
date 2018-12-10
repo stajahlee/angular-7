@@ -4,15 +4,11 @@ class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
+      var fullname = this.props.data.fullname;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
       var email = this.props.data.email;
+      var linkedincontact = this.props.data.linkedincontact;
       var resumeDownload = this.props.data.resumedownload;
     }
 
@@ -20,7 +16,7 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+            <img className="profile-pic"  src={profilepic} alt="Stajah Hoeflich Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
@@ -30,17 +26,16 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+						   <span>{fullname}</span><br />
+						   <span>Contact me via email or LinkedIn.</span><br />
+                     <span>{email}</span><br />
+                     <span>{linkedincontact}</span><br />
+
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
